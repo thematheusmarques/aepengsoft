@@ -31,7 +31,7 @@ header {
 }
 
 header img {
-    width: 4vw;
+    width: 4.9w;
     height: 7vh;
     margin-left: 2vw;
 }
@@ -121,7 +121,7 @@ header ul li i {
 }
 
 .container .right .items .item {
-    height: 31vh;
+    height: 34vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -144,7 +144,7 @@ header ul li i {
 
 .container .right .item span {
     text-shadow: 0.1em 0.1em 0.20em #333;
-    font-size: 1.1vw;
+    font-size: 1.2vw;
     font-weight: 300;
 }
 
@@ -197,18 +197,25 @@ header ul li i {
 
 @media(max-width: 768px) {
     header img {
-        width: 9vw;
-        height: 10vw;
+        width: 20vw;
+        height: 15vw;
     }
     header ul li {
         font-size: 1rem
     }
-    .container .left h1 {
-        font-size: 1rem;
+    header ul li a{
+        text-decoration: none;
+        font-size: 2.5vw;
+        font-weight: 500;
+        color: #ffffff;
+        text-shadow: 0.1em 0.1em 0.15em #000000;
     }
-    .container .left .discord {
-        font-size: .8rem;
-        margin-top: 1rem;
+    .container .left h1 {
+        font-size: 1.4rem;
+    }
+    .container .left .youtube {
+        font-size: .9rem;
+        margin-top: 2rem;
         padding: .5rem;
     }
     .icon i {
@@ -218,7 +225,7 @@ header ul li i {
         width: 100%;
     }
     .container .left .video {
-        width: 18rem;
+        width: 20rem;
         height: 13rem;
     }
     .container .left {
@@ -272,20 +279,35 @@ header ul li i {
         font-size: .8rem;
     }
 
+    .container .right {
+        float: right;
+        position: relative;
+        text-align: right;
+        width: 55.33%;
+        height: 70%;
+        padding: 1vw 2vw;
+    }
+
     .container .right a{
         font-size: .7rem;
         margin-top: .3rem;
     }
 
     .container .right .item p{
-        font-size: .65rem;
+        font-size: .9rem;
         width: 80%;
         margin-top: .3rem;
     }
 
+    .container .right .item span{
+        text-shadow: 0.1em 0.1em 0.20em #333;
+        font-size: 3.4vw;
+        font-weight: 400;
+    }
+
     .container .right .items .item{
         height: 30vh;
-        width: 18rem;
+        width: 23rem;
     }
 
     .container .right .items{
